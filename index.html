@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>application to spacetrip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="https://i1.faceprep.in/ProGrad/space-man-1.png" alt="space-man-1" id="astro1">
+    <img src="https://i1.faceprep.in/ProGrad/space-man-2.png" alt="space-man-2" id="astro2">
+    <form action="">
+        <h1>Rocket around the moon with your BFFs</h1>
+
+        <label class="galaxy">Departure Country</label>
+        <select name="countries" id="countries">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uae">UAE</option>
+        </select>
+
+        <label class="galaxy">No. of Space Travellers</label>
+        <input type="number" name="travellers" id="travellers">
+
+        <label class="galaxy">Your email</label>
+        <input type="email" name="email" id="email" placeholder="john123@gmail.com">
+
+        <label class="galaxy">Do you wanna rent a space suit?</label>
+        <input type="radio" name="yes" id="yes" value="yes">
+        <label for="yes" class="submit">Yes, please</label>
+        <input type="radio" name="no" id="no" value="no">
+        <label for="no" class="submit">No, I have my own</label>
+
+        <input type="button" value="Take us to space" id="button">
+    </form>
+</body>
+</html>
